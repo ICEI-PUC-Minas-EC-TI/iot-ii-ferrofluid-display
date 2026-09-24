@@ -56,4 +56,3 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 <li><a href="Documentacao/05-Conclusão.md"> Conclusão </a></li>
 <li><a href="Documentacao/06-Referências.md"> Referências </a></li>
 </ol>
-
