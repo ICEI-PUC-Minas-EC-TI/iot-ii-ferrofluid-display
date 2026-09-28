@@ -1,0 +1,72 @@
+# === Python ===
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# === C / C++ ===
+# Object files
+*.o
+*.obj
+*.lo
+*.slo
+*.ko
+# Precompiled headers
+*.gch
+*.pch
+# Libraries
+*.a
+*.la
+*.lai
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+# Executables
+*.exe
+*.out
+*.app
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+# Build systems (o Makefile em si é código-fonte, não é ignorado)
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.ninja
+.ninja_log
+
+# === Go ===
+# Compiled binaries (o próprio nome do módulo pode virar binário sem extensão)
+*.test
+# Coverage
+*.cover
+*.coverprofile
+# Dependency vendor dir (mantenha se o projeto vendorizar dependências)
+vendor/
+# Go workspace file
+go.work
+go.work.sum
+# Build output comum
+/bin/
+/dist/
+
+# === Editores / SO ===
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
